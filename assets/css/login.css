@@ -1,0 +1,32 @@
+/*登入註冊表單*/
+.tab-container {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.tab-header {
+	display: flex;
+}
+.tab-header button {
+	background-color: #f2f2f2;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	flex: 1;
+	transition: background-color 0.3s;
+}
+.tab-header button:hover {
+	background-color: #ddd;
+}
+.tab-content {
+	display: none;
+	padding: 20px;
+}
+.tab-content.active {
+	display: block;
+}
+.tab-header button.active {
+	background-color: orange;
+}
